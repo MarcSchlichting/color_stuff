@@ -5,6 +5,7 @@ from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 from scipy.optimize import minimize_scalar
 from tqdm import tqdm
+import os
 
 def patch_asscalar(a):
     return a.item()
@@ -58,12 +59,38 @@ def get_color_sample(delta_e=20,diff_c_min=1):
     
     return anchor_rgb, candidate1_rgb, candidate2_rgb    
 
-for de in [25]:
+# generate sample data
+n_points = 201
+x = np.linspace(0,10,n_points)
+y1 = np.exp(-x) + 0.05 * np.random.randn(n_points)
+y2 = 2/(1+np.exp(x-3))  + 0.05 * np.random.randn(n_points)
+
+for de in [15,20,25,30,35,40,45,50,55,60]:
+    try:
+        os.makedirs(f"candidate_colors/{de}")
+    except FileExistsError:
+        pass
 
     colors = []
-    while len(colors) < 10:
+    while len(colors) < 100:
         try:
             anchor,c1,c2 = get_color_sample(delta_e=de,diff_c_min=int(de/2))
+            
+            fig,axs = plt.subplots(1,2,figsize = (8,3))
+            axs[0].plot(x,y1,c=anchor)
+            axs[0].plot(x,y2,c=c1)
+            axs[0].set_xticks([])
+            axs[0].set_yticks([])
+            axs[0].set_title("A")
+            axs[1].plot(x,y1,c=anchor)
+            axs[1].plot(x,y2,c=c2)
+            axs[1].set_xticks([])
+            axs[1].set_yticks([])
+            axs[1].set_title("B")
+            fig.tight_layout()
+            fig.savefig(f"candidate_colors/{de}/{len(colors)}.png",dpi=450)
+            plt.close()
+            
             colors.append((anchor,c1,c2))
             print(len(colors))
         except:
@@ -71,23 +98,11 @@ for de in [25]:
 
     colors = np.stack(colors)
 
-    np.save(f"candidate_colors/delta_e_{de}.npy",colors)
+    np.save(f"candidate_colors/{de}/delta_e_{de}.npy",colors)
         
 
 
 
-# generate sample data
-n_points = 201
-x = np.linspace(0,10,n_points)
-y1 = np.exp(-x) + 0.05 * np.random.randn(n_points)
-y2 = 2/(1+np.exp(x-3))  + 0.05 * np.random.randn(n_points)
 
-fig,axs = plt.subplots(1,2,figsize = (8,3))
-axs[0].plot(x,y1,c=colors[0][0])
-axs[0].plot(x,y2,c=colors[0][1])
-axs[0].set_title("A")
-axs[1].plot(x,y1,c=colors[0][0])
-axs[1].plot(x,y2,c=colors[0][2])
-axs[1].set_title("B")
-fig.tight_layout()
-plt.show()
+
+# plt.show()
