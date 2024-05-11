@@ -1,26 +1,41 @@
-[[AdvancedFormat]]
+QID_15_20 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/20.png" alt="Description of the image">
 
-[[ED:State]]
-[[ED:Gender]]
-[[ED:SawSurvey:1]]
-
-[[Block:MC Block]]
-
-[[Question:MC:SingleAnswer:Horizontal]]
-single answer horizontal
-[[Choices]]
-choice A
-choice B
+A
+B
 
 
-[[Question:MC:SingleAnswer:Horizontal]]
-single answer horizontal
-[[Choices]]
-choice A
-choice B
+QID_15_21 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/21.png" alt="Description of the image">
 
-[[Question:MC:SingleAnswer:Horizontal]]
-single answer horizontal
-[[Choices]]
-choice A
-choice B
+A
+B
+
+
+QID_15_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/22.png" alt="Description of the image">
+
+A
+B
+
+
+QID_25_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/25/11.png" alt="Description of the image">
+
+A
+B
+
+
+QID_10_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/10/22.png" alt="Description of the image">
+
+A
+B
+
+
+QID_15_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/11.png" alt="Description of the image">
+
+A
+B
+
+
+QID_20_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/22.png" alt="Description of the image">
+
+A
+B
+
