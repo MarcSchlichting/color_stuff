@@ -1,0 +1,1403 @@
+[[AdvancedFormat]]
+
+[[Block:Delta E 20]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_98 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/98.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_179 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/179.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_182 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/182.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_169 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/169.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_0 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/0.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_107 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/107.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_10 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/10.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_77 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/77.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_163 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/163.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_191 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/191.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_65 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/65.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_114 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/114.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_103 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/103.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_111 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/111.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_82 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/82.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_70 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/70.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_105 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/105.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_48 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/48.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_190 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/190.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_63 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/63.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_184 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/184.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_122 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/122.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_137 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/137.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_49 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/49.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_2 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/2.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_127 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/127.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_1 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/1.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_40 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/40.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_102 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/102.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_27 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/27.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_181 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/181.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_109 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/109.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_198 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/198.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_161 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/161.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_126 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/126.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/11.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_154 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/154.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_188 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/188.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_4 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/4.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_100 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/100.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_55 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/55.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_33 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/33.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_142 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/142.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_185 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/185.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_146 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/146.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_69 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/69.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_113 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/113.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_101 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/101.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_93 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/93.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_36 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/36.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_110 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/110.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_108 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/108.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_116 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/116.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_24 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/24.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_162 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/162.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_117 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/117.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_46 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/46.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_8 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/8.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_133 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/133.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_31 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/31.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_34 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/34.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_123 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/123.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_18 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/18.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_92 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/92.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_165 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/165.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_75 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/75.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_119 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/119.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_66 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/66.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_80 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/80.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_152 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/152.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_141 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/141.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_104 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/104.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_130 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/130.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_30 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/30.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_20 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/20.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_174 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/174.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_53 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/53.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_60 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/60.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_47 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/47.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_74 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/74.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_91 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/91.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_64 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/64.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_125 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/125.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_131 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/131.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_83 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/83.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_139 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/139.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_196 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/196.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_132 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/132.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_164 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/164.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_175 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/175.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_172 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/172.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_43 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/43.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_153 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/153.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_197 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/197.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_21 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/21.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_81 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/81.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_94 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/94.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_45 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/45.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_87 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/87.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_12 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/12.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_170 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/170.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_25 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/25.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/22.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_173 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/173.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_138 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/138.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_96 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/96.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_13 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/13.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_29 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/29.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_76 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/76.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_71 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/71.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_68 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/68.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_39 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/39.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_106 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/106.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_148 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/148.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_26 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/26.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_7 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/7.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_192 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/192.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_178 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/178.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_121 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/121.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_14 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/14.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_95 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/95.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_176 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/176.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_144 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/144.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_57 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/57.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_32 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/32.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_97 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/97.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_145 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/145.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_151 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/151.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_35 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/35.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_150 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/150.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_62 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/62.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_15 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/15.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_37 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/37.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_195 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/195.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_124 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/124.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_199 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/199.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_155 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/155.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_19 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/19.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_84 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/84.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_38 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/38.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_79 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/79.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_23 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/23.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_120 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/120.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_89 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/89.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_86 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/86.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_136 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/136.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_118 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/118.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_56 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/56.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_51 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/51.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_85 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/85.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_54 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/54.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_9 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/9.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_44 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/44.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_194 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/194.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_28 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/28.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_171 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/171.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_158 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/158.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_52 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/52.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_167 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/167.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_41 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/41.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_129 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/129.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_58 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/58.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_149 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/149.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_5 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/5.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_159 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/159.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_134 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/134.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_189 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/189.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_147 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/147.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_50 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/50.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_72 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/72.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_140 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/140.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_128 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/128.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_168 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/168.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_166 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/166.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_59 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/59.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_73 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/73.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_156 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/156.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_180 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/180.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_112 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/112.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_115 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/115.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_67 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/67.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_177 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/177.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_16 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/16.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_157 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/157.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_160 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/160.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_186 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/186.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_88 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/88.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_78 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/78.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_187 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/187.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_183 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/183.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_42 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/42.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_99 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/99.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_143 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/143.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_61 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/61.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_17 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/17.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_3 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/3.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_90 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/90.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_135 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/135.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_193 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/193.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_20_6 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/6.png" alt="Description of the image">
+[[Choices]]
+A
+B
+

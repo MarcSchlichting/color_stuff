@@ -1,41 +1,110 @@
-QID_15_20 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/20.png" alt="Description of the image">
+[[AdvancedFormat]]
 
-A
-B
+[[ED:State]]
+[[ED:Gender]]
+[[ED:SawSurvey:1]]
 
+[[Block:MC Block]]
 
-QID_15_21 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/21.png" alt="Description of the image">
+[[Question:MC:Dropdown]]
+drop down
+[[Choices]]
+choice a
+choice b
+choice c
 
-A
-B
+[[Question:MC:Select]]
+select
+[[Choices]]
+choice a
+choice b
+choice c
 
+[[Question:MC:MultiSelect]]
+multiselect
+[[Choices]]
+choice a
+choice b
+choice c
 
-QID_15_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/22.png" alt="Description of the image">
+[[Question:MC:SingleAnswer:Horizontal]]
+single answer horizontal
+[[Choices]]
+choice a
+choice b
+choice c
 
-A
-B
+[[Question:MC:MultipleAnswer:Horizontal]]
+multiple answer horizontal
+[[Choices]]
+choice a
+choice b
+choice c
 
+[[Question:TE:Form]]
+This is a form question. Please fill out the following information:
+[[Choices]]
+First Name
+Last Name
 
-QID_25_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/25/11.png" alt="Description of the image">
+[[Block]]
 
-A
-B
+[[Question:MC]]
+[[ID:q1]]
+This is a multiple choice question. With one value recoded.
 
+[[AdvancedChoices]]
+[[Choice]]
+choice a
+with text on
+multiple lines
+[[Choice]]
+choice b
+[[Choice]]
+choice c
+[[Choice:99]]
+N/A with recode 99
 
-QID_10_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/10/22.png" alt="Description of the image">
+[[PageBreak]]
 
-A
-B
+[[Question:Matrix]]
+This question is a matrix question.
 
+It has lots of question text on multiple lines and uses
+advanced answers.
 
-QID_15_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/15/11.png" alt="Description of the image">
+[[Choices]]
+statement a
+statement b
+statement c
+[[AdvancedAnswers]]
+[[Answer]]
+answer 1
+[[Answer]]
+answer 2
+[[Answer]]
+answer 3
 
-A
-B
+[[PageBreak]]
 
+[[Question:Matrix]]
+This question is a matrix question and uses advanced choices and
+answers with recode values.
 
-QID_20_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/20/22.png" alt="Description of the image">
+[[AdvancedChoices]]
+[[Choice]]
+choice a
+[[Choice]]
+choice b
+[[Choice]]
+choice c
+[[Choice]]
+choice d
 
-A
-B
-
+[[AdvancedAnswers]]
+[[Answer:10]]
+answer 1 - recode 10
+[[Answer:20]]
+answer 2 - recode 20
+[[Answer:30]]
+answer 3 - recode 30

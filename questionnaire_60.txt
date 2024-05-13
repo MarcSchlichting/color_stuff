@@ -1,0 +1,1403 @@
+[[AdvancedFormat]]
+
+[[Block:Delta E 60]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_98 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/98.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_179 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/179.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_182 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/182.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_169 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/169.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_0 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/0.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_107 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/107.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_10 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/10.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_77 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/77.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_163 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/163.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_191 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/191.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_65 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/65.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_114 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/114.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_103 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/103.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_111 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/111.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_82 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/82.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_70 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/70.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_105 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/105.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_48 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/48.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_190 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/190.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_63 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/63.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_184 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/184.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_122 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/122.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_137 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/137.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_49 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/49.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_2 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/2.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_127 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/127.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_1 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/1.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_40 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/40.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_102 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/102.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_27 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/27.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_181 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/181.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_109 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/109.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_198 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/198.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_161 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/161.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_126 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/126.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_11 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/11.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_154 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/154.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_188 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/188.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_4 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/4.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_100 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/100.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_55 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/55.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_33 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/33.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_142 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/142.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_185 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/185.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_146 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/146.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_69 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/69.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_113 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/113.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_101 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/101.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_93 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/93.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_36 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/36.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_110 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/110.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_108 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/108.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_116 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/116.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_24 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/24.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_162 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/162.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_117 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/117.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_46 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/46.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_8 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/8.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_133 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/133.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_31 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/31.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_34 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/34.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_123 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/123.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_18 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/18.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_92 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/92.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_165 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/165.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_75 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/75.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_119 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/119.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_66 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/66.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_80 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/80.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_152 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/152.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_141 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/141.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_104 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/104.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_130 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/130.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_30 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/30.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_20 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/20.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_174 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/174.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_53 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/53.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_60 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/60.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_47 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/47.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_74 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/74.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_91 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/91.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_64 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/64.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_125 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/125.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_131 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/131.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_83 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/83.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_139 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/139.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_196 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/196.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_132 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/132.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_164 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/164.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_175 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/175.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_172 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/172.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_43 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/43.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_153 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/153.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_197 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/197.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_21 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/21.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_81 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/81.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_94 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/94.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_45 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/45.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_87 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/87.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_12 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/12.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_170 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/170.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_25 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/25.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_22 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/22.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_173 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/173.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_138 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/138.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_96 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/96.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_13 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/13.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_29 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/29.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_76 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/76.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_71 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/71.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_68 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/68.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_39 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/39.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_106 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/106.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_148 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/148.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_26 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/26.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_7 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/7.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_192 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/192.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_178 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/178.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_121 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/121.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_14 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/14.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_95 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/95.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_176 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/176.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_144 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/144.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_57 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/57.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_32 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/32.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_97 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/97.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_145 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/145.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_151 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/151.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_35 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/35.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_150 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/150.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_62 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/62.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_15 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/15.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_37 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/37.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_195 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/195.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_124 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/124.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_199 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/199.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_155 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/155.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_19 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/19.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_84 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/84.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_38 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/38.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_79 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/79.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_23 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/23.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_120 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/120.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_89 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/89.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_86 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/86.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_136 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/136.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_118 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/118.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_56 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/56.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_51 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/51.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_85 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/85.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_54 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/54.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_9 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/9.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_44 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/44.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_194 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/194.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_28 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/28.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_171 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/171.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_158 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/158.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_52 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/52.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_167 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/167.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_41 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/41.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_129 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/129.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_58 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/58.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_149 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/149.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_5 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/5.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_159 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/159.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_134 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/134.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_189 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/189.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_147 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/147.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_50 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/50.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_72 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/72.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_140 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/140.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_128 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/128.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_168 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/168.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_166 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/166.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_59 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/59.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_73 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/73.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_156 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/156.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_180 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/180.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_112 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/112.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_115 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/115.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_67 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/67.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_177 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/177.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_16 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/16.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_157 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/157.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_160 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/160.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_186 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/186.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_88 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/88.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_78 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/78.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_187 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/187.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_183 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/183.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_42 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/42.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_99 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/99.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_143 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/143.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_61 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/61.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_17 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/17.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_3 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/3.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_90 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/90.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_135 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/135.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_193 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/193.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
+
+[[Question:MC:SingleAnswer:Horizontal]]
+QID_60_6 <img src="https://raw.githubusercontent.com/MarcSchlichting/color_stuff/main/candidate_colors/60/6.png" alt="Description of the image">
+[[Choices]]
+A
+B
+
