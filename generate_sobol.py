@@ -18,7 +18,7 @@ setattr(np, "asscalar", patch_asscalar)
 N = 200
 N_elite = 5
 
-for de in [25]:
+for de in [15,20,25,30,35,40,45,50,55,60,65,70]:
 
     try:
         os.makedirs(f"candidate_colors/{de}")

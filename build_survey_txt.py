@@ -2,7 +2,7 @@ import os
 import glob
 
 
-for de in reversed(range(15,91,5)):
+for de in reversed(range(15,71,5)):
     string_lines = ["[[AdvancedFormat]]", ""]
     files = glob.glob(f'./candidate_colors/{de}/*.png', recursive=True)
     string_lines.append(f"[[Block:Delta E {de}]]")
