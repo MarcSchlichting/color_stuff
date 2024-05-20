@@ -20,7 +20,7 @@ df = pd.read_csv("preferences.csv")
 bins = 12
 hue_boundaries = np.linspace(0,360,bins+1)
 
-counts_empty = [{"to_bin_idx":i, "to_bin_boundaries":[hue_boundaries[i],hue_boundaries[i+1]],"positive":0,"negative":0} for i in range(bins)]
+counts_empty = [{"to_bin_idx":i, "to_bin_boundaries":[hue_boundaries[i],hue_boundaries[i+1]],"positive":[],"negative":[]} for i in range(bins)]
 counts = [{"from_bin_idx":i, "from_bin_boundaries":[hue_boundaries[i],hue_boundaries[i+1]], "to_counts":deepcopy(counts_empty)} for i in range(bins)]
 
 for i in range(df.shape[0]):
@@ -42,15 +42,15 @@ for i in range(df.shape[0]):
         if anchor_hue_idx == from_idx:
             if preference == "A":
                 # positive
-                counts[from_idx]["to_counts"][A_hue_idx]["positive"] += 1
+                counts[from_idx]["to_counts"][A_hue_idx]["positive"].append(A_hsl[0])
                 #negative
-                counts[from_idx]["to_counts"][B_hue_idx]["negative"] += 1
+                counts[from_idx]["to_counts"][B_hue_idx]["negative"].append(B_hsl[0])
 
             elif preference == "B":
                 # positive
-                counts[from_idx]["to_counts"][B_hue_idx]["positive"] += 1
+                counts[from_idx]["to_counts"][B_hue_idx]["positive"].append(B_hsl[0])
                 #negative
-                counts[from_idx]["to_counts"][A_hue_idx]["negative"] += 1
+                counts[from_idx]["to_counts"][A_hue_idx]["negative"].append(A_hsl[0])
             
             else:
                 raise ValueError("Preference should either be 'A' or 'B'.")
@@ -58,23 +58,31 @@ for i in range(df.shape[0]):
         else:
             if A_hue_idx == from_idx:
                 if preference == "A":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"] += 1
+                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"].append(anchor_hsl[0])
 
                 elif preference == "B":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"] += 1
+                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"].append(anchor_hsl[0])
 
                 else:
                     raise ValueError("Preference should either be 'A' or 'B'.")
                 
             if B_hue_idx == from_idx:
                 if preference == "B":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"] += 1
+                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"].append(anchor_hsl[0])
 
                 elif preference == "A":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"] += 1
+                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"].append(anchor_hsl[0])
 
                 else:
                     raise ValueError("Preference should either be 'A' or 'B'.")
+
+plt.hist(counts[0]["to_counts"][0]["positive"],alpha=0.5)
+plt.hist(counts[0]["to_counts"][0]["negative"],alpha=0.5)
+plt.show()
+print("stop")
+
+
+
 
 # preference table
 preference_table = np.zeros((bins,bins))
