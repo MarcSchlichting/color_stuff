@@ -8,6 +8,8 @@ from tqdm import tqdm
 import os
 from joblib import Parallel, delayed
 import itertools
+import pickle
+import random
 
 def patch_asscalar(a):
     return a.item()
@@ -70,12 +72,15 @@ y2 = 2/(1+np.exp(x-3))  + 0.05 * np.random.randn(n_points)
 
 colors = []
 hue_values = []
+choices = []
 hues = np.arange(0,360,30)
 # combinations_c1_c2 = list(itertools.combinations(hues,2))
-combinations_all = list(itertools.combinations(hues,3))
+combinations_c1_c2 = itertools.combinations(hues,2)
+combinations_all = list(itertools.product(hues,combinations_c1_c2))
+combinations_all = [(c[0],c[1][0],c[1][1]) for c in combinations_all if ((c[0]!=c[1][0]) and (c[0]!=c[1][1]))]
 sat = 0.7
 light = 0.5
-for anch_hue,col1_hue,col2_hue in combinations_all:
+for i, (anch_hue,col1_hue,col2_hue) in enumerate(combinations_all):
     anchor = convert_color(HSLColor(anch_hue,sat,light),sRGBColor).get_value_tuple()
     c1 = convert_color(HSLColor(col1_hue,sat,light),sRGBColor).get_value_tuple()
     c2 = convert_color(HSLColor(col2_hue,sat,light),sRGBColor).get_value_tuple()
@@ -94,17 +99,27 @@ for anch_hue,col1_hue,col2_hue in combinations_all:
     fig.suptitle(f"{len(colors)}")
     fig.tight_layout()
     fig.savefig(f"candidate_colors_hsl/{len(colors)}.pdf")
+    print(i)
+    # plt.show(block=False)
+    # decision = input(f"{i}: Enter your response: ")
+    decision = random.choice(["A","B"])
     plt.close()
+    # plt.clf()
+
 
     colors.append((anchor,c1,c2))
     hue_values.append((anch_hue,col1_hue,col2_hue))
-    print(len(colors))
+    choices.append(decision)
+    # print(len(colors))
 
 colors = np.stack(colors)
 hues_values = np.stack(hue_values)
 
-np.save(f"candidate_colors_hsl/colors.npy",colors)
-np.save(f"candidate_colors_hsl/hues.npy",colors)
+np.save(f"candidate_colors_hsl/colors2.npy",colors)
+np.save(f"candidate_colors_hsl/hues2.npy",colors)
+with open(f"candidate_colors_hsl/choices2.pkl","wb") as f:
+    pickle.dump(choices,f)
+print(choices)
         
 
 

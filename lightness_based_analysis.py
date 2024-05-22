@@ -6,6 +6,8 @@ import numpy as np
 from copy import deepcopy
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
+import matplotlib.colors as mcolors
+import matplotlib.patches as patches
 
 colors = [(0.8, 0.0, 0.0),  # Red at 0.0
           (1.0, 1.0, 1.0),  # Gray at 0.5
@@ -95,13 +97,30 @@ for from_idx in range(bins):
 
 print((alpha_table+beta_table-2).min())
 
-# plt.matshow(alpha_table+beta_table-2)
-# for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
-#     plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+plt.matshow(alpha_table+beta_table-2)
+for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
+    plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
-# plt.show()
+plt.show()
 
-plt.matshow(preference_table,vmin=-1,vmax=1,cmap=custom_cmap)
-plt.colorbar()
+luminosities = np.linspace(0.05, 0.95, 10)  # Generate hues from 0 to 1
+colors = [convert_color(HSLColor(220,0.7,lum),sRGBColor).get_value_tuple() for lum in luminosities] 
+x = np.arange(10)
+
+fig,ax = plt.subplots()
+# p = ax.matshow(preference_table,vmin=-1,vmax=1,cmap=custom_cmap)
+p = ax.matshow(2*(alpha_table/(alpha_table+beta_table)) - 1,vmin=-1,vmax=1,cmap=custom_cmap)
+ax.set_xticks(x)
+ax.set_xticklabels([])
+ax.set_yticks(x)
+ax.set_yticklabels([])
+# Add color patches in place of x-tick labels
+for i, color in enumerate(colors):
+    rect = patches.Rectangle((x[i] - 0.3, -1.4), 0.6, 0.6, facecolor=color, transform=ax.transData, clip_on=False)
+    ax.add_patch(rect)
+    rect = patches.Rectangle((-1.4,x[i] - 0.3), 0.6, 0.6, facecolor=color, transform=ax.transData, clip_on=False)
+    ax.add_patch(rect)
+plt.colorbar(p)
+plt.savefig("luminosity_analysis.pdf")
 plt.show()
 print("stop")

@@ -6,6 +6,9 @@ import numpy as np
 from copy import deepcopy
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
+import pickle
+import matplotlib.colors as mcolors
+import matplotlib.patches as patches
 
 colors = [(0.8, 0.0, 0.0),  # Red at 0.0
           (1.0, 1.0, 1.0),  # Gray at 0.5
@@ -15,19 +18,21 @@ colors = [(0.8, 0.0, 0.0),  # Red at 0.0
 cmap_name = 'custom_red_gray_green'
 custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors)
 
-df = pd.read_csv("preferences.csv")
+with open("./candidate_colors_hsl/choices.pkl","rb") as f:
+    choices = pickle.load(f)
+colors_all_rgb = np.load("./candidate_colors_hsl/colors.npy")
 
 bins = 12
 hue_boundaries = np.linspace(0,360,bins+1)
 
-counts_empty = [{"to_bin_idx":i, "to_bin_boundaries":[hue_boundaries[i],hue_boundaries[i+1]],"positive":[],"negative":[]} for i in range(bins)]
-counts = [{"from_bin_idx":i, "from_bin_boundaries":[hue_boundaries[i],hue_boundaries[i+1]], "to_counts":deepcopy(counts_empty)} for i in range(bins)]
+positive_counts = np.zeros((bins,bins))
+negative_counts= np.zeros((bins,bins))
 
-for i in range(df.shape[0]):
-    anchor_rgb = ast.literal_eval(df["Anchor_RGB"].iloc[i])
-    A_rgb = ast.literal_eval(df["Color_A_RGB"].iloc[i])
-    B_rgb = ast.literal_eval(df["Color_B_RGB"].iloc[i])
-    preference = df["Preference"].iloc[i]
+for i in range(len(choices)):
+    anchor_rgb = colors_all_rgb[i][0]
+    A_rgb = colors_all_rgb[i][1]
+    B_rgb = colors_all_rgb[i][2]
+    preference = choices[i]
 
     anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
     A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
@@ -37,79 +42,54 @@ for i in range(df.shape[0]):
     A_hue_idx = np.digitize(A_hsl[0],hue_boundaries) - 1  #0 bin is for values below lowest boundary
     B_hue_idx = np.digitize(B_hsl[0],hue_boundaries) - 1  #0 bin is for values below lowest boundary
 
-    for from_idx in range(bins):
-        # case 1: anchor is in bin
-        if anchor_hue_idx == from_idx:
-            if preference == "A":
-                # positive
-                counts[from_idx]["to_counts"][A_hue_idx]["positive"].append(A_hsl[0])
-                #negative
-                counts[from_idx]["to_counts"][B_hue_idx]["negative"].append(B_hsl[0])
+    if preference == "A":
+        positive_counts[anchor_hue_idx,A_hue_idx] += 1
+        positive_counts[A_hue_idx,anchor_hue_idx] += 1
 
-            elif preference == "B":
-                # positive
-                counts[from_idx]["to_counts"][B_hue_idx]["positive"].append(B_hsl[0])
-                #negative
-                counts[from_idx]["to_counts"][A_hue_idx]["negative"].append(A_hsl[0])
-            
-            else:
-                raise ValueError("Preference should either be 'A' or 'B'.")
-        
-        else:
-            if A_hue_idx == from_idx:
-                if preference == "A":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"].append(anchor_hsl[0])
+        negative_counts[anchor_hue_idx,B_hue_idx] += 1
+        negative_counts[B_hue_idx,anchor_hue_idx] += 1
+    
+    elif preference == "B":
+        positive_counts[anchor_hue_idx,B_hue_idx] += 1
+        positive_counts[B_hue_idx,anchor_hue_idx] += 1
 
-                elif preference == "B":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"].append(anchor_hsl[0])
-
-                else:
-                    raise ValueError("Preference should either be 'A' or 'B'.")
-                
-            if B_hue_idx == from_idx:
-                if preference == "B":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["positive"].append(anchor_hsl[0])
-
-                elif preference == "A":
-                    counts[from_idx]["to_counts"][anchor_hue_idx]["negative"].append(anchor_hsl[0])
-
-                else:
-                    raise ValueError("Preference should either be 'A' or 'B'.")
-
-plt.hist(counts[0]["to_counts"][0]["positive"],alpha=0.5)
-plt.hist(counts[0]["to_counts"][0]["negative"],alpha=0.5)
-plt.show()
-print("stop")
-
-
-
+        negative_counts[anchor_hue_idx,A_hue_idx] += 1
+        negative_counts[A_hue_idx,anchor_hue_idx] += 1
 
 # preference table
 preference_table = np.zeros((bins,bins))
 alpha_table = np.ones((bins,bins))
 beta_table = np.ones((bins,bins))
 
-for from_idx in range(bins):
-    for to_idx in range(bins):
-        positive_counts = counts[from_idx]["to_counts"][to_idx]["positive"]
-        negative_counts = counts[from_idx]["to_counts"][to_idx]["negative"]
+preference_table = 2 * (positive_counts/(negative_counts+positive_counts)) - 1
+alpha_table = positive_counts + 1
+beta_table = negative_counts + 1
 
-        if positive_counts+negative_counts == 0:
-            preference_table[from_idx,to_idx] = 0
-        else:
-            preference_table[from_idx,to_idx] = 2*(positive_counts/(negative_counts+positive_counts)) - 1   
-        alpha_table[from_idx,to_idx] += positive_counts
-        beta_table[from_idx,to_idx] += negative_counts
 
 print((alpha_table+beta_table-2).min())
 
-plt.matshow(alpha_table+beta_table-2)
-for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
-    plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+# plt.matshow(alpha_table+beta_table-2)
+# for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
+#     plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
-plt.show()
+# plt.show()
+hues = np.linspace(0, 1, 12)  # Generate hues from 0 to 1
+colors = [mcolors.hsv_to_rgb((hue, 0.7, 1)) for hue in hues] 
+x = np.arange(12)
 
-plt.matshow(preference_table,vmin=-1,vmax=1,cmap=custom_cmap)
-plt.colorbar()
+fig,ax = plt.subplots()
+p = ax.matshow(2*(alpha_table/(alpha_table+beta_table)) - 1,vmin=-1,vmax=1,cmap=custom_cmap)
+ax.set_xticks(x)
+ax.set_xticklabels([])
+ax.set_yticks(x)
+ax.set_yticklabels([])
+# Add color patches in place of x-tick labels
+for i, color in enumerate(colors):
+    rect = patches.Rectangle((x[i] - 0.3, -1.4), 0.6, 0.6, facecolor=color, transform=ax.transData, clip_on=False)
+    ax.add_patch(rect)
+    rect = patches.Rectangle((-1.4,x[i] - 0.3), 0.6, 0.6, facecolor=color, transform=ax.transData, clip_on=False)
+    ax.add_patch(rect)
+plt.colorbar(p)
+plt.savefig("hue_analysis.pdf")
 plt.show()
 print("stop")
