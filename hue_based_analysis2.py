@@ -18,9 +18,13 @@ colors = [(0.8, 0.0, 0.0),  # Red at 0.0
 cmap_name = 'custom_red_gray_green'
 custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors)
 
-with open("./candidate_colors_hsl/choices.pkl","rb") as f:
+with open("./candidate_colors_hsl/choices3_corrected.pkl","rb") as f:
     choices = pickle.load(f)
-colors_all_rgb = np.load("./candidate_colors_hsl/colors.npy")
+colors_all_rgb = np.load("./candidate_colors_hsl/colors3.npy")
+
+# with open("./candidate_colors_hsl/choices3_corrected.pkl","rb") as f:
+# #     choices = pickle.load(f)
+# # colors_all_rgb = np.load("./candidate_colors_hsl/colors3.npy")
 
 bins = 12
 hue_boundaries = np.linspace(0,360,bins+1)
@@ -73,7 +77,7 @@ print((alpha_table+beta_table-2).min())
 #     plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
 # plt.show()
-hues = np.linspace(0, 1, 12)  # Generate hues from 0 to 1
+hues = np.linspace(0, 1, 13)[:12] + 1/24  # Generate hues from 0 to 1
 colors = [mcolors.hsv_to_rgb((hue, 0.7, 1)) for hue in hues] 
 x = np.arange(12)
 
