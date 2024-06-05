@@ -80,42 +80,51 @@ model.fit(X,y,verbose=True)
 xq1,xq2 = torch.meshgrid(torch.linspace(0,1,101),torch.linspace(0,1,101))
 query_coordinates = torch.stack([xq1,xq2],dim=-1).reshape(-1,2)
 
-xq = torch.ones((query_coordinates.shape[0],6))
+fig,ax = plt.subplots(5,5,figsize=(15,12))
+
+for i,s in enumerate([0.1,0.3,0.5,0.7,0.9]):
+    for j,l in enumerate([0.1,0.3,0.5,0.7,0.9]):
+
+        xq = torch.ones((query_coordinates.shape[0],6))
+        xq[:,0] = query_coordinates[:,0]
+        xq[:,1] = s
+        xq[:,2] = l
+        xq[:,3] = query_coordinates[:,1]
+        xq[:,4] = s
+        xq[:,5] = l
 
 
-# predicted_preferences = model.predict(query_coordinates)
-# predicted_preferences_mesh = {k:predicted_preferences[k].reshape(xq1.shape) for k in predicted_preferences}
+        predicted_preferences = model.predict(xq)
+        predicted_preferences_mesh = {k:predicted_preferences[k].reshape(xq1.shape) for k in predicted_preferences}
 
-# x = np.linspace(1/24,1-1/24,12)
-# colors = [mcolors.hsv_to_rgb((hue, 0.7, 1)) for hue in x]
-
-# fig,ax = plt.subplots(1,3,figsize=(20,6))
-
-# #Hue
-# p = ax[0].contourf(xq1.numpy(),xq2.numpy(),2*(predicted_preferences_mesh["p"].numpy())-1,levels=20,vmin=-1.0,vmax=1.0,origin="upper",cmap=custom_cmap)
-# ax[0].scatter(*X.T,s=2,color="black",alpha=0.2)
-# ax[0].set_xticks(x)
-# ax[0].set_xticklabels([])
-# ax[0].set_yticks(x)
-# ax[0].set_yticklabels([])
-# ax[0].set_title("Hue")
-# # Add color patches in place of x-tick labels
-# for i, color in enumerate(colors):
-#     rect = patches.Rectangle((x[i]-0.03,-0.08), 0.06, 0.06, facecolor=color, transform=ax[0].transData, clip_on=False)
-#     ax[0].add_patch(rect)
-#     rect = patches.Rectangle((-0.08,x[i]-0.03), 0.06, 0.06, facecolor=color, transform=ax[0].transData, clip_on=False)
-#     ax[0].add_patch(rect)
-# plt.colorbar(p)
-# # plt.gca().invert_yaxis()
-# # ax[0].tick_params(top=True, labeltop=True, bottom=False, labelbottom=False)
-# # plt.xlabel("Hue 1 [deg]")
-# # plt.ylabel("Hue 2 [deg]")
-# # plt.tight_layout()
-# # plt.savefig("hue_analysis_dkr.pdf")
-# # plt.show()
+        x = np.linspace(1/24,1-1/24,12)
+        colors = [mcolors.hsv_to_rgb((hue, s, l)) for hue in x]
 
 
+        #Hue
+        p = ax[i,j].contourf(xq1.numpy(),xq2.numpy(),2*(predicted_preferences_mesh["p"].numpy())-1,levels=20,vmin=-1.0,vmax=1.0,origin="upper",cmap=custom_cmap)
+        ax[i,j].set_xticks(x)
+        ax[i,j].set_xticklabels([])
+        ax[i,j].set_yticks(x)
+        ax[i,j].set_yticklabels([])
+        ax[i,j].set_title("Hue")
+        # Add color patches in place of x-tick labels
+        for k, color in enumerate(colors):
+            rect = patches.Rectangle((x[k]-0.03,-0.08), 0.06, 0.06, facecolor=color, transform=ax[i,j].transData, clip_on=False)
+            ax[i,j].add_patch(rect)
+            rect = patches.Rectangle((-0.08,x[k]-0.03), 0.06, 0.06, facecolor=color, transform=ax[i,j].transData, clip_on=False)
+            ax[i,j].add_patch(rect)
+        plt.colorbar(p)
+# plt.gca().invert_yaxis()
+# ax[0].tick_params(top=True, labeltop=True, bottom=False, labelbottom=False)
+# plt.xlabel("Hue 1 [deg]")
+# plt.ylabel("Hue 2 [deg]")
+plt.tight_layout()
+# plt.savefig("hue_analysis_dkr.pdf")
+# plt.show()
 
+plt.savefig("6d_dkr.pdf")
+print('stop')
 
 # # Saturation
 
