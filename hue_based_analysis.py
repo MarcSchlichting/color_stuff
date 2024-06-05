@@ -95,11 +95,11 @@ for from_idx in range(bins):
 
 print((alpha_table+beta_table-2).min())
 
-plt.matshow(alpha_table+beta_table-2)
-for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
-    plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+# plt.matshow(alpha_table+beta_table-2)
+# for (i, j), z in np.ndenumerate((alpha_table+beta_table-2)):
+#     plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
-plt.show()
+# plt.show()
 
 plt.matshow(preference_table,vmin=-1,vmax=1,cmap=custom_cmap)
 plt.colorbar()
