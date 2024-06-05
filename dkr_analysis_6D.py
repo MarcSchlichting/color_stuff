@@ -98,7 +98,7 @@ for i,s in enumerate([0.1,0.3,0.5,0.7,0.9]):
         predicted_preferences_mesh = {k:predicted_preferences[k].reshape(xq1.shape) for k in predicted_preferences}
 
         x = np.linspace(1/24,1-1/24,12)
-        colors = [mcolors.hsv_to_rgb((hue, s, l)) for hue in x]
+        colors = [convert_color(HSLColor(hue, s, l),sRGBColor).get_value_tuple() for hue in x]
 
 
         #Hue
