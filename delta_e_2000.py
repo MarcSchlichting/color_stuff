@@ -9,46 +9,84 @@ def cosd(x):
 def atan2d(y,x):
     return np.rad2deg(np.arctan2(y,x))
 
-# def delta_e_2000(lab1,lab2):
-#     """expects lab1 and lab2 to be of shape (3,N)"""
-#     assert lab1.shape == lab2.shape
-#     assert lab1.shape[0] == 3
-    
-#     k_L = 1     # ISO 13655:2009
-#     delta_Lp = lab2[0] - lab1[0]
-#     Lbar = 0.5 * (lab1[0]+lab2[0])
-#     S_L = 1 + (0.015*(Lbar-50)**2)/np.sqrt(20+(Lbar-50)**2)
-    
-#     C_1s = np.sqrt(lab1[1]**2 + lab1[2]**2)
-#     C_2s = np.sqrt(lab2[1]**2 + lab2[2]**2)
-#     Cbar = (C_1s + C_2s)/2
-#     a_1p = lab1[1] + lab1[1]/2*(1-np.sqrt(Cbar**7/(Cbar**7 + 25**7)))
-#     a_2p = lab2[1] + lab2[1]/2*(1-np.sqrt(Cbar**7/(Cbar**7 + 25**7)))
-#     C_1p = np.sqrt(a_1p**2 + lab1[2]**2)
-#     C_2p = np.sqrt(a_2p**2 + lab2[2]**2)
-#     delta_Cp = C_2p - C_1p
-#     k_C = 1     # ISO 13655:2009
-    
-#     Cbarp = (C_1p + C_2p)/2
-#     S_C = 1 + 0.045*Cbarp
-    
-#     h_1p = np.mod(atan2d(lab1[2],a_1p),360)
-#     h_2p = np.mod(atan2d(lab2[2],a_2p),360)
-#     # delta_hp = np.mod((h_2p - h_1p)+180, 360) - 180
-#     delta_hp = np.where(np.abs(h_1p - h_2p) <= 180, h_2p - h_1p, (360 - np.abs(h_2p - h_1p))) 
+import math
 
-#     delta_Hp = 2*np.sqrt(C_1p*C_2p)*sind(delta_hp/2)
-#     k_H = 1     # ISO 13655:2009
+def delta_e_2000_gpt(lab1, lab2):
+    def deg_to_rad(deg):
+        return deg * (np.pi / 180.0)
+
+    def rad_to_deg(rad):
+        return rad * (180.0 / np.pi)
+
+    def CIEDE2000(L1, a1, b1, L2, a2, b2):
+        L1, a1, b1 = np.asarray(L1), np.asarray(a1), np.asarray(b1)
+        L2, a2, b2 = np.asarray(L2), np.asarray(a2), np.asarray(b2)
+
+        L_bar_prime = 0.5 * (L1 + L2)
+        
+        C1 = np.sqrt(a1**2 + b1**2)
+        C2 = np.sqrt(a2**2 + b2**2)
+        
+        C_bar = 0.5 * (C1 + C2)
+        
+        C_bar_prime = 1.0 + 0.5 * (1.0 - np.sqrt(C_bar**7 / (C_bar**7 + 25.0**7)))
+        
+        a1_prime = a1 * C_bar_prime
+        a2_prime = a2 * C_bar_prime
+        
+        C1_prime = np.sqrt(a1_prime**2 + b1**2)
+        C2_prime = np.sqrt(a2_prime**2 + b2**2)
+        
+        C_bar_prime = 0.5 * (C1_prime + C2_prime)
+        
+        h1_prime = np.arctan2(b1, a1_prime)
+        h2_prime = np.arctan2(b2, a2_prime)
+        h1_prime = np.where(h1_prime >= 0, h1_prime, h1_prime + 2 * np.pi)
+        h2_prime = np.where(h2_prime >= 0, h2_prime, h2_prime + 2 * np.pi)
+        
+        H_bar_prime = 0.5 * (h1_prime + h2_prime)
+        H_bar_prime = np.where(np.abs(h1_prime - h2_prime) > np.pi, 
+                               H_bar_prime + np.pi, H_bar_prime)
+        H_bar_prime = np.where(H_bar_prime < 2 * np.pi, H_bar_prime, H_bar_prime - 2 * np.pi)
+        
+        T = (1 -
+             0.17 * np.cos(H_bar_prime - deg_to_rad(30)) +
+             0.24 * np.cos(2 * H_bar_prime) +
+             0.32 * np.cos(3 * H_bar_prime + deg_to_rad(6)) -
+             0.20 * np.cos(4 * H_bar_prime - deg_to_rad(63)))
+        
+        delta_h_prime = h2_prime - h1_prime
+        delta_h_prime = np.where(np.abs(delta_h_prime) > np.pi,
+                                 np.where(h2_prime <= h1_prime, 
+                                          delta_h_prime + 2 * np.pi, 
+                                          delta_h_prime - 2 * np.pi),
+                                 delta_h_prime)
+        
+        delta_L_prime = L2 - L1
+        delta_C_prime = C2_prime - C1_prime
+        delta_H_prime = 2 * np.sqrt(C1_prime * C2_prime) * np.sin(delta_h_prime / 2)
+        
+        S_L = 1 + (0.015 * (L_bar_prime - 50) ** 2) / np.sqrt(20 + (L_bar_prime - 50) ** 2)
+        S_C = 1 + 0.045 * C_bar_prime
+        S_H = 1 + 0.015 * C_bar_prime * T
+        
+        delta_theta = deg_to_rad(30) * np.exp(-((H_bar_prime - deg_to_rad(275)) / deg_to_rad(25)) ** 2)
+        
+        R_C = 2 * np.sqrt(C_bar_prime ** 7 / (C_bar_prime ** 7 + 25.0 ** 7))
+        R_T = -R_C * np.sin(2 * delta_theta)
+        
+        delta_E_00 = np.sqrt((delta_L_prime / S_L) ** 2 +
+                             (delta_C_prime / S_C) ** 2 +
+                             (delta_H_prime / S_H) ** 2 +
+                             R_T * (delta_C_prime / S_C) * (delta_H_prime / S_H))
+        
+        return delta_E_00
+
+    L1, a1, b1 = lab1.T
+    L2, a2, b2 = lab2.T
     
-#     Hbarp = np.where(np.abs(h_1p - h_2p) > 180, (h_1p + h_2p + 360)/2, (h_1p + h_2p)/2)
-#     T = 1 - 0.17*cosd(Hbarp-30) + 0.24*cosd(2*Hbarp) + 0.32*cosd(2*Hbarp + 6) -0.2*cosd(4*Hbarp - 63)
-#     S_H = 1 + 0.015*Cbarp*T    
-    
-#     R_T = -2*np.sqrt(Cbarp**7/(Cbarp**7 + 25**7))*sind(60*np.exp(-((Hbarp-275)/25)**2))
-    
-#     delta_e = np.sqrt((delta_Lp/(k_L*S_L))**2+(delta_Cp/(k_C*S_C))**2+(delta_Hp/(k_H*S_H))**2+R_T*delta_Cp/(k_C*S_C)*delta_Hp/(k_H*S_H))
-    
-#     return delta_e
+    return CIEDE2000(L1, a1, b1, L2, a2, b2)
+
 
 def delta_e_2000(lab1, lab2):
     L1, a1, b1 = lab1
@@ -131,5 +169,9 @@ if __name__ == "__main__":
     lab3 = np.array([77,-33,69])
     lab4 = np.array([34,4,-111])
     
+    print(delta_e_cie2000(LabColor(*lab1),LabColor(*lab2)))
+    print(delta_e_cie2000(LabColor(*lab2),LabColor(*lab3)))
     print(delta_e_cie2000(LabColor(*lab3),LabColor(*lab4)))
-    print(delta_e_2000(lab3,lab4))
+    # print(delta_e_2000(lab3,lab4))
+    print(delta_e_2000_gpt(np.stack([lab1,lab2,lab3],axis=0),np.stack([lab2,lab3,lab4],axis=0)))
+    print('stop')

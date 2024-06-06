@@ -1,5 +1,5 @@
 import pandas as pd
-from colormath.color_objects import sRGBColor, HSLColor
+from colormath.color_objects import sRGBColor, HSLColor, LCHabColor
 from colormath.color_conversions import convert_color
 import ast
 import numpy as np
@@ -24,18 +24,18 @@ colors = [(0.8, 0.0, 0.0),  # Red at 0.0
 cmap_name = 'custom_red_gray_green'
 custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors)
 
-# with open("./candidate_colors_hsl/choices5.pkl","rb") as f:
-#     choices = pickle.load(f)
-# colors_all_rgb = np.load("./candidate_colors_hsl/colors5.npy")
+with open("./candidate_colors_hsl/choices5.pkl","rb") as f:
+    choices = pickle.load(f)
+colors_all_rgb = np.load("./candidate_colors_hsl/colors5.npy")
 
-# responses from the online survey
-df = pd.read_csv("./preferences.csv")
-choices = list(df["Preference"])
+# # responses from the online survey
+# df = pd.read_csv("./preferences.csv")
+# choices = list(df["Preference"])
 
-colors_all_rgb = []
-for i in range(df.shape[0]):
-    colors_all_rgb.append(np.stack([eval(f"np.array({df[col].iloc[i]})") for col in ["Anchor_RGB","Color_A_RGB","Color_B_RGB"]],axis=0))
-colors_all_rgb = np.stack(colors_all_rgb,axis=0)
+# colors_all_rgb = []
+# for i in range(df.shape[0]):
+#     colors_all_rgb.append(np.stack([eval(f"np.array({df[col].iloc[i]})") for col in ["Anchor_RGB","Color_A_RGB","Color_B_RGB"]],axis=0))
+# colors_all_rgb = np.stack(colors_all_rgb,axis=0)
 
 
 positive_hue_combinations = []
@@ -47,11 +47,16 @@ for i in range(len(choices)):
     B_rgb = colors_all_rgb[i][2]
     preference = choices[i]
 
-    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
-    A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
-    B_hsl = convert_color(sRGBColor(*B_rgb),HSLColor).get_value_tuple()
+    # anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
+    # A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
+    # B_hsl = convert_color(sRGBColor(*B_rgb),HSLColor).get_value_tuple()
 
-    idx = 0
+    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),LCHabColor).get_value_tuple()
+    A_hsl = convert_color(sRGBColor(*A_rgb),LCHabColor).get_value_tuple()
+    B_hsl = convert_color(sRGBColor(*B_rgb),LCHabColor).get_value_tuple()
+
+    idx = 2
+    # idx = 0
 
     if preference == "A":
         positive_hue_combinations.append((anchor_hsl[idx],A_hsl[idx]))
@@ -70,8 +75,8 @@ for i in range(len(choices)):
 positive_hue_combinations = np.array(positive_hue_combinations)
 negative_hue_combinations = np.array(negative_hue_combinations)
 
-lower_triangle_pos = positive_hue_combinations[:,0] >= positive_hue_combinations[:,1]
-lower_triangle_neg = negative_hue_combinations[:,0] >= negative_hue_combinations[:,1]
+# lower_triangle_pos = positive_hue_combinations[:,0] >= positive_hue_combinations[:,1]
+# lower_triangle_neg = negative_hue_combinations[:,0] >= negative_hue_combinations[:,1]
 
 # positive_hue_combinations = positive_hue_combinations[lower_triangle_pos]
 # negative_hue_combinations = negative_hue_combinations[lower_triangle_neg]
@@ -95,7 +100,8 @@ predicted_preferences = model.predict(query_coordinates)
 predicted_preferences_mesh = {k:predicted_preferences[k].reshape(xq1.shape) for k in predicted_preferences}
 
 x = np.linspace(1/24,1-1/24,12)
-colors = [mcolors.hsv_to_rgb((hue, 0.7, 1)) for hue in x]
+# colors = [convert_color(HSLColor(hue*360,0.7,0.5),sRGBColor) for hue in x]
+colors = [convert_color(LCHabColor(50,80,hue*360),sRGBColor).get_value_tuple() for hue in x]
 
 fig,ax = plt.subplots(1,3,figsize=(20,6))
 
@@ -278,6 +284,6 @@ plt.gca().invert_yaxis()
 
 
 plt.tight_layout()
-plt.savefig("all_dkr_analysis_online.pdf")
+plt.savefig("all_dkr_analysis_lch.pdf")
 plt.show()
 print("stop")
