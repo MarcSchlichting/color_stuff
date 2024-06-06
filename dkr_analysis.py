@@ -24,18 +24,18 @@ colors = [(0.8, 0.0, 0.0),  # Red at 0.0
 cmap_name = 'custom_red_gray_green'
 custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors)
 
-with open("./candidate_colors_hsl/choices5.pkl","rb") as f:
-    choices = pickle.load(f)
-colors_all_rgb = np.load("./candidate_colors_hsl/colors5.npy")
+# with open("./candidate_colors_hsl/choices5.pkl","rb") as f:
+#     choices = pickle.load(f)
+# colors_all_rgb = np.load("./candidate_colors_hsl/colors5.npy")
 
-# # responses from the online survey
-# df = pd.read_csv("./preferences.csv")
-# choices = list(df["Preference"])
+# responses from the online survey
+df = pd.read_csv("./preferences.csv")
+choices = list(df["Preference"])
 
-# colors_all_rgb = []
-# for i in range(df.shape[0]):
-#     colors_all_rgb.append(np.stack([eval(f"np.array({df[col].iloc[i]})") for col in ["Anchor_RGB","Color_A_RGB","Color_B_RGB"]],axis=0))
-# colors_all_rgb = np.stack(colors_all_rgb,axis=0)
+colors_all_rgb = []
+for i in range(df.shape[0]):
+    colors_all_rgb.append(np.stack([eval(f"np.array({df[col].iloc[i]})") for col in ["Anchor_RGB","Color_A_RGB","Color_B_RGB"]],axis=0))
+colors_all_rgb = np.stack(colors_all_rgb,axis=0)
 
 
 positive_hue_combinations = []
@@ -47,16 +47,16 @@ for i in range(len(choices)):
     B_rgb = colors_all_rgb[i][2]
     preference = choices[i]
 
-    # anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
-    # A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
-    # B_hsl = convert_color(sRGBColor(*B_rgb),HSLColor).get_value_tuple()
+    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
+    A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
+    B_hsl = convert_color(sRGBColor(*B_rgb),HSLColor).get_value_tuple()
 
-    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),LCHabColor).get_value_tuple()
-    A_hsl = convert_color(sRGBColor(*A_rgb),LCHabColor).get_value_tuple()
-    B_hsl = convert_color(sRGBColor(*B_rgb),LCHabColor).get_value_tuple()
+    # anchor_hsl = convert_color(sRGBColor(*anchor_rgb),LCHabColor).get_value_tuple()
+    # A_hsl = convert_color(sRGBColor(*A_rgb),LCHabColor).get_value_tuple()
+    # B_hsl = convert_color(sRGBColor(*B_rgb),LCHabColor).get_value_tuple()
 
-    idx = 2
-    # idx = 0
+    # idx = 2
+    idx = 0
 
     if preference == "A":
         positive_hue_combinations.append((anchor_hsl[idx],A_hsl[idx]))
@@ -100,14 +100,14 @@ predicted_preferences = model.predict(query_coordinates)
 predicted_preferences_mesh = {k:predicted_preferences[k].reshape(xq1.shape) for k in predicted_preferences}
 
 x = np.linspace(1/24,1-1/24,12)
-# colors = [convert_color(HSLColor(hue*360,0.7,0.5),sRGBColor) for hue in x]
-colors = [convert_color(LCHabColor(50,80,hue*360),sRGBColor).get_value_tuple() for hue in x]
+colors = [convert_color(HSLColor(hue*360,0.7,0.5),sRGBColor).get_value_tuple() for hue in x]
+# colors = [convert_color(LCHabColor(50,80,hue*360),sRGBColor).get_value_tuple() for hue in x]
 
 fig,ax = plt.subplots(1,3,figsize=(20,6))
 
 #Hue
 p = ax[0].contourf(xq1.numpy(),xq2.numpy(),2*(predicted_preferences_mesh["p"].numpy())-1,levels=20,vmin=-1.0,vmax=1.0,origin="upper",cmap=custom_cmap)
-ax[0].scatter(*X.T,s=2,color="black",alpha=0.2)
+ax[0].scatter(*X.T,s=2,color="black",alpha=0.05)
 ax[0].set_xticks(x)
 ax[0].set_xticklabels([])
 ax[0].set_yticks(x)
@@ -194,7 +194,7 @@ x = np.linspace(1/24,1-1/24,12)
 colors = [convert_color(HSLColor(220,sat,0.5),sRGBColor).get_value_tuple() for sat in x]
 
 p = ax[1].contourf(xq1.numpy(),xq2.numpy(),2*(predicted_preferences_mesh["p"].numpy())-1,levels=20,vmin=-1.0,vmax=1.0,origin="upper",cmap=custom_cmap)
-ax[1].scatter(*X.T,s=2,color="black",alpha=0.2)
+ax[1].scatter(*X.T,s=2,color="black",alpha=0.05)
 ax[1].set_xticks(x)
 ax[1].set_xticklabels([])
 ax[1].set_yticks(x)
@@ -266,7 +266,7 @@ x = np.linspace(1/24,1-1/24,12)
 colors = [convert_color(HSLColor(220,0.7,light),sRGBColor).get_value_tuple() for light in x]
 
 p = ax[2].contourf(xq1.numpy(),xq2.numpy(),2*(predicted_preferences_mesh["p"].numpy())-1,levels=20,vmin=-1.0,vmax=1.0,origin="upper",cmap=custom_cmap)
-ax[2].scatter(*X.T,s=2,color="black",alpha=0.2)
+ax[2].scatter(*X.T,s=2,color="black",alpha=0.05)
 ax[2].set_xticks(x)
 ax[2].set_xticklabels([])
 ax[2].set_yticks(x)
@@ -284,6 +284,6 @@ plt.gca().invert_yaxis()
 
 
 plt.tight_layout()
-plt.savefig("all_dkr_analysis_lch.pdf")
+plt.savefig("all_dkr_analysis_hsl.pdf")
 plt.show()
 print("stop")

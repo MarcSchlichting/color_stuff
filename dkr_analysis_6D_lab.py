@@ -1,5 +1,5 @@
 import pandas as pd
-from colormath.color_objects import sRGBColor, HSLColor, LCHabColor
+from colormath.color_objects import sRGBColor, LabColor, HSLColor
 from colormath.color_conversions import convert_color
 import ast
 import numpy as np
@@ -44,13 +44,10 @@ for i in range(len(choices)):
     B_rgb = colors_all_rgb[i][2]
     preference = choices[i]
 
-    # anchor_hsl = convert_color(sRGBColor(*anchor_rgb),LCHabColor).get_value_tuple()
-    # A_hsl = convert_color(sRGBColor(*A_rgb),LCHabColor).get_value_tuple()
-    # B_hsl = convert_color(sRGBColor(*B_rgb),LCHabColor).get_value_tuple()
 
-    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),HSLColor).get_value_tuple()
-    A_hsl = convert_color(sRGBColor(*A_rgb),HSLColor).get_value_tuple()
-    B_hsl = convert_color(sRGBColor(*B_rgb),HSLColor).get_value_tuple()
+    anchor_hsl = convert_color(sRGBColor(*anchor_rgb),LabColor).get_value_tuple()
+    A_hsl = convert_color(sRGBColor(*A_rgb),LabColor).get_value_tuple()
+    B_hsl = convert_color(sRGBColor(*B_rgb),LabColor).get_value_tuple()
 
     if preference == "A":
         positive_hsl_combinations.append(torch.Tensor(anchor_hsl+A_hsl))
@@ -71,7 +68,7 @@ negative_hue_combinations = torch.stack(negative_hsl_combinations,dim=0)
 
 
 # X = torch.concatenate([positive_hue_combinations,negative_hue_combinations],dim=0) / torch.Tensor([[100,132,360,100,132,360]])
-X = torch.concatenate([positive_hue_combinations,negative_hue_combinations],dim=0) / torch.Tensor([[360,1,1,360,1,1]])
+X = torch.concatenate([positive_hue_combinations,negative_hue_combinations],dim=0) / torch.Tensor([[100,128,128,100,128,128]]) + torch.Tensor([[0,1,1,0,1,1]])
 y = torch.concatenate([torch.ones((positive_hue_combinations.shape[0],1)),torch.zeros((negative_hue_combinations.shape[0],1))],dim=0)
 
 
@@ -97,14 +94,17 @@ for i,s in enumerate([0.1,0.3,0.5,0.7,0.9]):
         # xq[:,3] = l
         # xq[:,4] = s
         # xq[:,5] = query_coordinates[:,1]
-
-        xq = torch.ones((query_coordinates.shape[0],6))
-        xq[:,0] = query_coordinates[:,0]
-        xq[:,1] = s
-        xq[:,2] = l
-        xq[:,3] = query_coordinates[:,1]
-        xq[:,4] = s
-        xq[:,5] = l
+        lab1s = torch.Tensor([convert_color(HSLColor(query_coordinates[i,0]*360,s,l),LabColor).get_value_tuple() for i in range(query_coordinates[:,0].shape[0])])
+        lab2s = torch.Tensor([convert_color(HSLColor(query_coordinates[i,1]*360,s,l),LabColor).get_value_tuple() for i in range(query_coordinates[:,1].shape[0])])
+        
+        # xq = torch.ones((query_coordinates.shape[0],6))
+        # xq[:,0] = query_coordinates[:,0]
+        # xq[:,1] = s
+        # xq[:,2] = l
+        # xq[:,3] = query_coordinates[:,1]
+        # xq[:,4] = s
+        # xq[:,5] = l
+        xq = torch.concatenate([lab1s,lab2s],dim=-1) / torch.Tensor([[100,128,128,100,128,128]]) + torch.Tensor([[0,1,1,0,1,1]])
 
 
         predicted_preferences = model.predict(xq)
@@ -135,7 +135,7 @@ plt.tight_layout()
 # plt.savefig("hue_analysis_dkr.pdf")
 # plt.show()
 
-# plt.savefig("6d_dkr_hsl.pdf")
+plt.savefig("6d_dkr_lab_hsl.pdf")
 print('stop')
 
 
