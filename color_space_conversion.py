@@ -73,11 +73,16 @@ plt.plot(rs,1.7925560597e+06*(rs+1.0090619908e+02)**(-3.1043848868e+00)+1.806238
 plt.show()
 
 plt.plot(rs,amplitude)
-plt.plot(rs,0.25*np.exp(-0.0491*rs))
+plt.plot(rs,1.974*np.exp(-((rs+100.2)/69.33)**2))
+plt.show()
+
+plt.plot(rs,(1.7925560597e+06*(rs+1.0090619908e+02)**(-3.1043848868e+00)+1.8062387513e-01) + 1.974*np.exp(-((rs+100.2)/69.33)**2)*1)
+plt.plot(rs,(1.7925560597e+06*(rs+1.0090619908e+02)**(-3.1043848868e+00)+1.8062387513e-01) + 1.974*np.exp(-((rs+100.2)/69.33)**2)*0)
+plt.plot(rs,(1.7925560597e+06*(rs+1.0090619908e+02)**(-3.1043848868e+00)+1.8062387513e-01) + 1.974*np.exp(-((rs+100.2)/69.33)**2)*(-1))
 plt.show()
 
 for i in range(rs.shape[0]):
-    plt.plot(t,correction_factor[i]*rs[i])
+    plt.plot(t,correction_factor[i])
 plt.show()
 
 
